@@ -136,6 +136,7 @@
     <string name="peertube_instance_add_exists">Instance already exists</string>
     <string name="settings_category_player_title">Player</string>
     <string name="settings_category_player_behavior_title">Behavior</string>
+    <string name="settings_category_accounts_title">Accounts</string>
     <string name="settings_category_video_audio_title">Video and audio</string>
     <string name="settings_category_history_title">History and cache</string>
     <string name="settings_category_appearance_title">Appearance</string>
@@ -385,6 +386,7 @@
     <string name="localization_changes_requires_app_restart">The language will change once the app is restarted</string>
     <!-- Kiosk Names -->
     <string name="trending">Trending</string>
+    <string name="home">Home</string>
     <string name="top_50">Top 50</string>
     <string name="new_and_hot">New and hot</string>
     <string name="local">Local</string>
@@ -715,4 +717,7 @@
     <!-- Show Channel Details -->
     <string name="error_show_channel_details">Error at Show Channel Details</string>
     <string name="loading_channel_details">Loading Channel Details…</string>
+    <string name="youtube_sign_in_settings_summary">Opens a web browser to let you sign-in to YouTube.</string>
+    <string name="youtube_sign_in_settings_title">Sign-in</string>
+    <string name="youtube_clear_cookies_settings_title">Clear Cookies</string>
 </resources>

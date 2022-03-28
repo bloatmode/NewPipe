@@ -126,6 +126,7 @@ public class App extends MultiDexApplication {
         final String key = getApplicationContext().getString(R.string.recaptcha_cookies_key);
         downloader.setCookie(ReCaptchaActivity.RECAPTCHA_COOKIES_KEY, prefs.getString(key, null));
         downloader.updateYoutubeRestrictedModeCookies(getApplicationContext());
+        downloader.updateYoutubeSignInCookies(getApplicationContext());
     }
 
     private void configureRxJavaErrorHandler() {
